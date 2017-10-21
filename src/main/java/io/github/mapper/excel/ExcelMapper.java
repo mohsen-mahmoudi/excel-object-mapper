@@ -265,7 +265,7 @@ public class ExcelMapper {
 		return value;
 	}
 
-	public static Boolean setCellBackground(Row row, int colNum, CellStyle cellBackground) {
+	private static Boolean setCellBackground(Row row, int colNum, CellStyle cellBackground) {
 		Cell cell = row.getCell(colNum);
 		if (cell == null)
 			row.createCell(colNum).setCellStyle(cellBackground);
