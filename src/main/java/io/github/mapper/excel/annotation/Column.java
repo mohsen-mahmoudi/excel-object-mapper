@@ -11,7 +11,8 @@ import java.lang.annotation.Target;
 
 /**
  * @author redcrow
- * @author Mohsen.Mahmoudi </br>
+ * @author Mohsen.Mahmoudi 
+ * 
  *         set <b>name</b> of column like <code>@Column(name = "abcd")</code> or
  *         <b>index</b> of column like <code>@Column(index = 0)</code> based on
  *         requirement. <b>Be careful, order of name is higher than

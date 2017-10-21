@@ -4,7 +4,7 @@
 <dependency>
     <groupId>io.github.mohsen-mahmoudi</groupId>
     <artifactId>excel-object-mapper</artifactId>
-    <version>1.0.0-releases</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 - Write code
